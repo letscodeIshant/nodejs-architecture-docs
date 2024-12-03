@@ -11,7 +11,8 @@
 
 ## Controller Design
 - Controllers should handle request parsing and response sending.
-- Business logic should be moved to services, not handled in controllers.
+- Services should handle database requests like getting data from database
+- Business logic should be moved to repositories, not handled in services.
   
 ## Request Validation
 - Input validation should be done at the request level, not in controllers.
